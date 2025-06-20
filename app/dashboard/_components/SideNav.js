@@ -11,7 +11,7 @@ export default function SideNav() {
   const menuList = [
     { id: 1, name: "Dashboard", icon: LayoutIcon, path: '/dashboard' },
     { id: 2, name: "Students", icon: GraduationCap, path: '/dashboard/students' },
-    { id: 3, name: "Attendence", icon: Hand, path: '/dashboard/attendence' },
+    { id: 3, name: "Attendence", icon: Hand, path: '/dashboard/attendance' },
     { id: 4, name: "Settings", icon: Settings, path: '/dashboard/settings' },
   ];
 

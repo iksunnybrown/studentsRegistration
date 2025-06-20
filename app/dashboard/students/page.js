@@ -85,7 +85,7 @@ export default function StudentRegistrationPage() {
     <div className="p-6 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold mb-4">Student Registration</h1>
 
-      <form onSubmit={handleSubmit} className="space-y-4 mb-8 bg-white p-6 rounded-lg shadow">
+      <form onSubmit={handleSubmit} className="space-y-4 mb-8 bg-white p-6 border rounded-lg shadow-md">
         {error && <div className="text-red-600">{error}</div>}
 
         <div className="flex gap-4">
